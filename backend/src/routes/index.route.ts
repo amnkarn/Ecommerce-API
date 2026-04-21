@@ -7,7 +7,7 @@ import orderRouter from "./order.route.js";
 
 const indexRouter: Router = Router();
 
-indexRouter.use("/user", userRouter);
+indexRouter.use("/users", userRouter);
 
 indexRouter.use("/admin", adminRouter);
 
