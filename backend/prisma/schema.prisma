@@ -17,3 +17,4 @@ model User {
   //otps                  Otp[]
   //session               Session[]
 }
+
