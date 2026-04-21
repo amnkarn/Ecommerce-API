@@ -9,10 +9,10 @@ userRouter.post("/login", loginUser);
 
 userRouter.get("/get-me", getUser);
 
-userRouter.get("refresh-token", refreshToken);
+userRouter.get("/refresh-token", refreshToken);
 
-userRouter.get("logout", logoutUser);
+userRouter.get("/logout", logoutUser);
 
-userRouter.get("logout-all", logoutAllUser);
+userRouter.get("/logout-all", logoutAllUser);
 
 export default userRouter;
